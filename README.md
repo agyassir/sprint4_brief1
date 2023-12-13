@@ -42,7 +42,7 @@ methode are the function but inside a class
 
 ### getter 
 
-is a methode built-in in the oop languages, it's role is to return an attribute 
+is a methode almost required in the oop languages, it's role is to return an attribute 
 
 ### setter
-is a methode built-in in oop languages, it's role is to update/set an attribute
+is a methode almost required in oop languages, it's role is to update/set an attribute

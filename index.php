@@ -1,47 +1,8 @@
 <?php 
-define("host","localhost");
-define("user","root");
-define("password","");
-define("database","youcrafting");
+include 'db.php';
+include 'user.php';
+include 'artical.php';
 
-class connexion{
-    function __construct() {
-        $conn = new PDO('mysql:host;database', $user, $pass);
-    }
-}
-class user{
-    public $firstname;
-    public $lastname;
-    public $username;
-    public $phone;
-    public $cin;
-    public $email;
-function __construct($fname,$lname,$usern,$phone,$cin,$email)
-{
-    $this -> firstname=$fname;
-    $this -> lastname=$lname;
-    $this -> username=$usern;
-    $this -> phone=$phone;
-    $this -> cin=$cin;
-    $this -> email=$email;
-}
-
-}
-class article{
-    public string $title;
-    public string $contenue;
-    public String $date_creation;
-    public user $auteur;
-function __construct($title,$contenue,$date)
-{
-    $this -> title=$title;
-    $this -> contenue=$contenue;
-    $this -> date_creation=$date;
-}
-}
-
-
-$ana= new user("yassir");
 ?>
 <!DOCTYPE html>
 <html lang="en">
